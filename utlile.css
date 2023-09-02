@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Sassy+Frass&display=swap');
+/* font-family: 'Sassy Frass', cursive; */
+
+.text-center{
+    text-align: center;
+    font-size: 25px;
+}
+
+.size{
+    height: 65px;
+    width: 70px;
+    border-radius: 25px;
+    color: #fc7426;
+    border-color: red;
+}
+.size:hover{
+    background-color: #fc7426;
+    color:aliceblue;
+}
+.size2{
+    height: 65px;
+    border-color: #fc7426;
+    color: blue;
+    width: 144px;
+    border-radius: 25px;
+}
+.size2:hover{
+    background-color: #fed6bd;
+    color: wheat;
+}
+#display{
+    margin: 12px 0;
+    padding: 5px;
+    width: 278px;
+    height: 30px;
+    border-radius: 8px;
+
+}
+.bar{
+    margin: 12px 0;
+    padding: 3px;
+    width: 278px;
+    height: 30px;
+    border-radius: 8px;
+}
+.cont_butt{
+    /* background-image: url(/maths2.jpg); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+    border-radius: 120px 0 100px 0 ;
+    border: 2px solid grey;
+}
+.cont_butt:hover{
+    backdrop-filter: blur(10px);
+    transition: 2s ease;
+}

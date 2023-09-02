@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My calculator</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="utlile.css" />
+  </head
+  <body>
+    <!-- <h1 class="text-center">Hello I am a calculator..!!</h1> -->
+    <div class="container">
+      <div class="mid">
+
+        <p class="text-center">CalculatoR</p>
+        
+        <input type="text" placeholder="Enter your calculation..." class="bar" id="display" />
+        
+        <div class="cont_butt">
+
+          <div class="buttons">
+            <button class="size" onclick="clearDisplay()">AC</button>
+            <button class="size"onclick="backspace()">&larr;</button>
+            <button class="size" onclick="insertValue('.')">.</button>
+            <button class="size" onclick="insertValue('/')">/</button>
+          </div>
+          <div class="buttons">
+        <button class="size" onclick="insertValue('7')">7</button>
+        <button class="size" onclick="insertValue('8')">8</button>
+        <button class="size" onclick="insertValue('9')">9</button>
+        <button class="size" onclick="insertValue('*')">*</button>
+      </div>
+      <div class="buttons">
+        <button class="size" onclick="insertValue('4')">4</button>
+        <button class="size" onclick="insertValue('5')">5</button>
+        <button class="size" onclick="insertValue('6')">6</button>
+        <button class="size" onclick="insertValue('-')">-</button>
+      </div>
+      <div class="buttons">
+        <button class="size" onclick="insertValue('1')">1</button>
+        <button class="size" onclick="insertValue('2')">2</button>
+        <button class="size" onclick="insertValue('3')">3</button>
+        <button class="size" onclick="insertValue('+')">+</button>
+      </div>
+      <div class="buttons">
+        <button class="size2" onclick="insertValue('100')">100</button>
+        <button class="size" onclick="calculate()">=</button>
+        <button class="size" onclick="insertValue('0')">0</button>
+      </div>    
+    </div>
+    </div>
+  </div>
+    <script src="node.js"></script>
+  </body>
+</html>
